@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background: none;
+}
+
+#optional {
+    background-color: rgba(49, 42, 42, 0.808);
+    height: 60px;
+    display: flex;
+    border: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#form-group {
+    margin: auto 0;
+}
+
+.sm {
+    font-size: small;
+    
+    margin: 20px 30px;
+    font-weight: 300;
+}
+
+.select {
+    color: #fff0f0;
+    
+}
+
+.select-bc {
+    background-color:  rgba(49, 42, 42, 0.808);
+    padding-left: 1.2em;
+}
+
+.blue {
+    background-color: rgb(53, 53, 192);
+    border: none;
+}
+
+.btn, select{
+    border-radius: 5px;
+    padding: 6px 0;
+    height: 35px;
+}
+
+select {
+    width: 300px;
+}
+.btn {
+    padding: 6px 12px;
+}
+
+nav {
+    display: flex;
+    height: 40px;
+    background-color: rgb(14, 13, 13);
+}
+
+img {
+    width: 20px;
+    margin-top: 20px;
+}
+.nav-links ul{
+    display: flex;
+}
+
+
+.nav-links ul li{
+    width: max-content;
+    list-style: none;
+    margin-left: -10px;
+
+
+}
+
+@media screen and (max-width: 768px){
+    #optional {
+        height: 120px;
+    }
+    
+    .container {
+        flex-wrap: wrap;
+        align-content: space-around;
+        padding-bottom: 20px;
+    }
+    select {
+        margin-left: 1.6em;
+    }
+}
